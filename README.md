@@ -29,14 +29,14 @@ The application is designed for scenarios where rapid detection of violence in v
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your_username/violence-detection.git
+   git clone (https://github.com/Zagroz901/AI-web-application-for-Violence-detection-using-streamlit.git)
    cd violence-detection
    ```
 
 
 2. **Run the Streamlit app**:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 3. **Additional packages**: 
@@ -54,7 +54,7 @@ The application is designed for scenarios where rapid detection of violence in v
 
 ## File Structure
 
-- **app.py**: Main Streamlit app for running the interface and video processing.
+- **main.py**: Main Streamlit app for running the interface and video processing.
 - **util.py**: Contains helper functions such as `detect_violence` and `set_background`.
 - **weights/**: Directory containing the pre-trained LSTM model weights.
 - **photo/**: Directory for storing background images used in the app.
